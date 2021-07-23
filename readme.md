@@ -16,7 +16,7 @@ You can find some tweets from the app. My twitter API name is bilative. You can 
 ![rt](https://user-images.githubusercontent.com/70684994/126724391-1aefdb2e-3658-41f5-9eaf-85014d15d1de.png)
 ----
 There is some details about bot.
-* Informations about earthquakes comes to website of Kandilli little late. So if eartquake occured at 02:12, information maybe will arrive to website about at 02:20.
+* Informations about earthquakes comes to website of Kandilli little late. So if eartquake occured at 03:02, website of Kandilli report it at 03:11.
 * Because of this latency our tweet system is also tweet late.
 * Our system is as fast as Kandilli Rasathanesi.
 
