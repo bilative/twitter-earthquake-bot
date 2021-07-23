@@ -7,8 +7,8 @@ This application will check website of [BOĞAZİÇİ ÜNİVERSİTESİ KANDİLLİ
 We can filter the tweets by some specific regions (like EGE), and we can send messages maybe.
 
 You can find some tweets from the app. My twitter API name is bilative. You can see name of the app on informations of tweet.
-* [02:39:41](https://twitter.com/bilallozdemir/status/1418358508135796743?s=20)
-* [03:02:46](https://twitter.com/bilallozdemir/status/1418363074785026053?s=20)
+* [02:39:41](https://twitter.com/bilallozdemir/status/1418358508135796743)
+* [03:02:46](https://twitter.com/bilallozdemir/status/1418363074785026053)
 ![rt](https://user-images.githubusercontent.com/70684994/126724391-1aefdb2e-3658-41f5-9eaf-85014d15d1de.png)
 ----
 There is some details about bot.
