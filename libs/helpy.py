@@ -28,6 +28,7 @@ api = tweepy.API(auth, wait_on_rate_limit=True,
                 wait_on_rate_limit_notify=True)
 
 
+# I wrote this to handle <pre> form table
 def splitIt(row):
     while True:
         row2 = row.replace('   ', '  ')
