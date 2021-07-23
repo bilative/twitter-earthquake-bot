@@ -4,7 +4,7 @@ I wanna make a twitter bot. This bot gonna tweet if there is a earthquake in las
 I wanted to do this bc you know, when we feel smth like shaking, we are checking 'website of Kandilli Rasathanesi' (this is one of the main reporter of earthquake in Turkey).
 This application will check website of [BOĞAZİÇİ ÜNİVERSİTESİ KANDİLLİ RASATHANESİ VE DEPREM ARAŞTIRMA ENSTİTÜSÜ (KRDAE)](http://www.koeri.boun.edu.tr/scripts/lst9.asp) and if there is a new earthquake it'll tweet it with details.
 
-We can filter the tweets by some specific regions (like EGE), and we can send messages maybe.
+We can filter the tweets by some specific regions (like EGE).
 
 ----
 
