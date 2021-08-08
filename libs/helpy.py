@@ -4,29 +4,10 @@ import re
 import numpy as np
 import pandas as pd
 import urllib.request
-import time
-import tweepy
-import datetime
 
 
 # init date
 URL = 'http://www.koeri.boun.edu.tr/scripts/lst9.asp'
-
-auth = tweepy.OAuthHandler(my_CONSUMER_KEY, my_CONSUMER_SECRET)
-auth.set_access_token(my_ACCESS_TOKEN, my_ACCESS_TOKEN_SECRET)
-
-api = tweepy.API(auth)
-
-try:
-    api.verify_credentials()
-    print("Authentication OK")
-except:
-    print("Autontatication Error!!!")
-
-
-api = tweepy.API(auth, wait_on_rate_limit=True,
-                wait_on_rate_limit_notify=True)
-
 
 # I wrote this to handle <pre> form table
 def splitIt(row):
