@@ -10,10 +10,11 @@ while True:
     df = checkWebsite(last)
     if df.shape[0] > 0:
         for i in range(df.shape[0]):
-            print('tweet atildi!!')
-            print(df.loc[i,'Tarih'])
-            api.update_status("Tarih: {} \n Yer: {} \n Niteligi: {} \n Siddeti: {}"
-                .format(df.loc[i, 'Tarih'], df.loc[i, 'Yer'], df.loc[i, 'Çözüm Niteliği\r'], df.loc[i, 'ML']))
+            if (int(df.loc[i, 'ML']) > 4.5):
+                print('tweet atildi!!')
+                print(df.loc[i,'Tarih'])
+                api.update_status("Tarih: {} \n Yer: {} \n Niteligi: {} \n Siddeti: {}"
+                    .format(df.loc[i, 'Tarih'], df.loc[i, 'Yer'], df.loc[i, 'Çözüm Niteliği\r'], df.loc[i, 'ML']))
             time.sleep(3)
         last = df['Tarih'].max()
     
